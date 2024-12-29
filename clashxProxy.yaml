@@ -25,3 +25,11 @@ payload:
   - DOMAIN-SUFFIX,4pda.ru
   - DOMAIN-SUFFIX,4pda.to
   - IP-CIDR,31.131.253.250/32
+  - openai.com
+  - chat.openai.com
+  - chatgpt.com
+  - oaistatic.com
+  - cdn.oaistatic.com
+  - oaiusercontent.com
+  - platform.openai.com
+  - ios.chat.openai.com
