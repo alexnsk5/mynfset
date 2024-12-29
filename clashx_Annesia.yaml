@@ -410,8 +410,6 @@ payload:
   - DOMAIN-SUFFIX,ntc.party
   - DOMAIN-SUFFIX,nxp.com
   - DOMAIN-SUFFIX,nyaa.si
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,oasis.app
   - DOMAIN-SUFFIX,obozrevatel.com
   - DOMAIN-SUFFIX,ocstore.com
@@ -427,7 +425,6 @@ payload:
   - DOMAIN-SUFFIX,onlinesim.io
   - DOMAIN-SUFFIX,onlinesim.ru
   - DOMAIN-SUFFIX,onshape.com
-  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openmedia.io
   - DOMAIN-SUFFIX,opensea.io
   - DOMAIN-SUFFIX,opentrackr.org
