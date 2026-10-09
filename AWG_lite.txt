@@ -75,3 +75,4 @@ ipleak.net
 whoer.net
 censortracker.org
 ntc.party
+checkip.tools
