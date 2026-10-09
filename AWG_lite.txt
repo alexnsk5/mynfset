@@ -71,7 +71,6 @@ agents.media
 
 # --- Служебные утилиты ---
 ipleak.net
-2ip.io
 whoer.net
 censortracker.org
 ntc.party
