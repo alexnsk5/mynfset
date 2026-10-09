@@ -4,6 +4,7 @@ oaistatic.com
 oaiusercontent.com
 chat.com
 sora.com
+auth0.com
 claude.ai
 anthropic.com
 clau.de
@@ -16,14 +17,19 @@ x.ai
 gemini.google.com
 aistudio.google.com
 generativeai.google
+generativelanguage.googleapis.com
 deepmind.google
 deepmind.com
 notebooklm.google
 alkalimakersuite.google.com
 makersuite.google.com
+aitestkitchen.withgoogle.com
+aisandbox-pa.googleapis.com
 labs.google
 copilot.microsoft.com
 githubcopilot.com
+sydney.bing.com
+edgeservices.bing.com
 meta.ai
 mistral.ai
 deepseek.com
@@ -36,7 +42,13 @@ cohere.com
 cursor.com
 cursor.sh
 cursorapi.com
+windsurf.com
+codeium.com
 trae.ai
+mchost.guru
+manus.im
+notion.so
+notion.com
 v0.dev
 replit.com
 midjourney.com
@@ -51,10 +63,12 @@ civitai.com
 huggingface.co
 hf.co
 elevenlabs.io
+elevenreader.io
 suno.ai
 suno.com
 udio.com
 deepl.com
+
 # --- Anthropic (Claude AI - AS399358) ---
 160.79.104.0/23
 
