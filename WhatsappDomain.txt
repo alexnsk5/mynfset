@@ -11,7 +11,7 @@ whatsapp-chatd-msgr-edge-shv.facebook.com
 whatsapp-cdn-shv.fbcdn.net
 
 # Медиа и вложения (Голосовые, фото, видео)
-fbcdn.net
+whatsapp-cdn-shv.fbcdn.net
 fbsbx.com
 media.whatsapp.net
 
