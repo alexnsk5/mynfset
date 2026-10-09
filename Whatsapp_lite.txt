@@ -1,10 +1,25 @@
+# Основные домены
 whatsapp.com
 whatsapp.net
 wa.me
+whatsapp.biz
+whatsapp.info
+
+# Критично для WhatsApp Desktop и синхронизации (Edge-серверы)
+whatsapp-chatd-edge-shv.facebook.com
+whatsapp-chatd-msgr-edge-shv.facebook.com
+whatsapp-cdn-shv.fbcdn.net
+
+# Медиа и вложения (Голосовые, фото, видео)
 fbcdn.net
 fbsbx.com
-facebook.com
-meta.com
+media.whatsapp.net
+
+# Сигнализация звонков и коннект
+v.whatsapp.net
+g.whatsapp.net
+ppl.whatsapp.net
+
 31.13.24.0/21
 31.13.64.0/18
 45.64.40.0/22
