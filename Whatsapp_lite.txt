@@ -20,6 +20,15 @@ v.whatsapp.net
 g.whatsapp.net
 ppl.whatsapp.net
 
+# +m
+whatsapp-plus.info
+whatsapp-plus.me
+whatsapp-plus.net
+whatsapp.cc
+whatsapp.org
+whatsapp.tv
+whatsappbrand.com
+
 31.13.24.0/21
 31.13.64.0/18
 45.64.40.0/22
