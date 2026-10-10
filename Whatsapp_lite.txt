@@ -20,6 +20,10 @@ v.whatsapp.net
 g.whatsapp.net
 ppl.whatsapp.net
 
+# --- КРИТИЧНО ДЛЯ СКОРОСТИ СООБЩЕНИЙ И ТОКЕНОВ МЕДИА (Graph API) ---
+graph.facebook.com
+graph.whatsapp.com
+
 # +m
 whatsapp-plus.info
 whatsapp-plus.me
