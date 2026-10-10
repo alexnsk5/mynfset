@@ -1,28 +1,26 @@
-# Основные домены
+# --- Домены сервисов и веб-клиента WhatsApp ---
 whatsapp.com
+web.whatsapp.com
 whatsapp.net
 wa.me
 whatsapp.biz
 whatsapp.info
 
-# Критично для WhatsApp Desktop и синхронизации (Edge-серверы)
-whatsapp-chatd-edge-shv.facebook.com
-whatsapp-chatd-msgr-edge-shv.facebook.com
+# --- Шлюзы медиа и авторизации (MMG & Graph API) ---
+graph.whatsapp.com
+graph.facebook.com
+mmg.whatsapp.net
+mms.whatsapp.net
+cdn.whatsapp.net
+media.whatsapp.net
 whatsapp-cdn-shv.fbcdn.net
 
-# Медиа и вложения (Голосовые, фото, видео)
-fbcdn.net
-fbsbx.com
-media.whatsapp.net
-
-# Сигнализация звонков и коннект
+# --- Подключение Desktop, звонки и синхронизация ---
+whatsapp-chatd-edge-shv.facebook.com
+whatsapp-chatd-msgr-edge-shv.facebook.com
 v.whatsapp.net
 g.whatsapp.net
 ppl.whatsapp.net
-
-# --- КРИТИЧНО ДЛЯ СКОРОСТИ СООБЩЕНИЙ И ТОКЕНОВ МЕДИА (Graph API) ---
-graph.facebook.com
-graph.whatsapp.com
 
 # +m
 whatsapp-plus.info
@@ -33,26 +31,8 @@ whatsapp.org
 whatsapp.tv
 whatsappbrand.com
 
-31.13.24.0/21
-31.13.64.0/18
-45.64.40.0/22
-57.144.0.0/14
-66.220.144.0/20
-69.63.176.0/20
-69.171.224.0/19
-74.119.76.0/22
-102.132.96.0/20
-103.4.96.0/22
-129.134.0.0/16
-157.240.0.0/16
-173.252.64.0/18
-179.60.192.0/22
-185.60.216.0/22
-185.89.216.0/22
-199.201.64.0/22
-204.15.20.0/22
-
-# --- Реле-серверы звонков WhatsApp (AWS TURN) ---
+# --- Выделенные серверы звонков WhatsApp (AWS Global Accelerator / TURN) ---
+3.33.139.0/24
 3.33.221.48/32
 3.33.252.61/32
 15.197.206.217/32
@@ -61,6 +41,3 @@ whatsappbrand.com
 34.193.38.112/32
 34.194.71.217/32
 34.194.255.230/32
-
-# --- Новый Edge-кластер серверов WhatsApp ---
-163.70.128.0/19
