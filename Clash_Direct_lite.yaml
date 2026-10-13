@@ -1,0 +1,107 @@
+payload:
+  # ============================================================
+  # ОПЕРАТОРЫ СВЯЗИ И ТЕЛЕКОМ
+  # ============================================================
+  - DOMAIN-SUFFIX,3gppnetwork.org
+  - DOMAIN-SUFFIX,megafon.ru
+  - DOMAIN-SUFFIX,novotelecom.ru
+
+  # ============================================================
+  # РОССИЙСКИЕ ДОМЕННЫЕ ЗОНЫ
+  # ============================================================
+  - DOMAIN-SUFFIX,ru
+  - DOMAIN-SUFFIX,su
+  - DOMAIN-SUFFIX,рф
+  - DOMAIN-SUFFIX,xn--p1ai
+
+  # ============================================================
+  # ГОССЕРВИСЫ И БАНКИ (ДОМЕНЫ)
+  # ============================================================
+  - DOMAIN-SUFFIX,gosuslugi.ru
+  - DOMAIN-SUFFIX,sberbank.ru
+  - DOMAIN-SUFFIX,sber.ru
+  - DOMAIN-SUFFIX,tinkoff.ru
+  - DOMAIN-SUFFIX,tbank.ru
+  - DOMAIN-SUFFIX,vtb.ru
+  - DOMAIN-SUFFIX,alfabank.ru
+  - DOMAIN-SUFFIX,cbr.ru
+  - DOMAIN-SUFFIX,nalog.gov.ru
+
+  # ============================================================
+  # РОССИЙСКИЕ ЭКОСИСТЕМЫ, ПОИСКОВИКИ И МЕДИА
+  # ============================================================
+  - DOMAIN-SUFFIX,yandex.ru
+  - DOMAIN-SUFFIX,yandex.net
+  - DOMAIN-SUFFIX,ya.ru
+  - DOMAIN-SUFFIX,dzen.ru
+  - DOMAIN-SUFFIX,vk.com
+  - DOMAIN-SUFFIX,vk.ru
+  - DOMAIN-SUFFIX,vkvideo.ru
+  - DOMAIN-SUFFIX,mail.ru
+  - DOMAIN-SUFFIX,ok.ru
+  - DOMAIN-SUFFIX,rutube.ru
+
+  # ============================================================
+  # МАРКЕТПЛЕЙСЫ И ГОРОДСКИЕ СЕРВИСЫ
+  # ============================================================
+  - DOMAIN-SUFFIX,ozon.ru
+  - DOMAIN-SUFFIX,wildberries.ru
+  - DOMAIN-SUFFIX,avito.ru
+  - DOMAIN-SUFFIX,kinopoisk.ru
+  - DOMAIN-SUFFIX,2gis.ru
+  - DOMAIN-SUFFIX,hh.ru
+
+  # ============================================================
+  # СЕТИ IPTV И МУЛЬТИКАСТ
+  # ============================================================
+  - IP-CIDR,224.0.0.0/4,no-resolve
+  - IP-CIDR,239.0.0.0/8,no-resolve
+
+  # ============================================================
+  # ОПОРНЫЕ ДАТА-ЦЕНТРЫ ЯНДЕКСА (AS13238)
+  # ============================================================
+  - IP-CIDR,5.45.192.0/18,no-resolve
+  - IP-CIDR,5.255.255.0/24,no-resolve
+  - IP-CIDR,77.88.0.0/18,no-resolve
+  - IP-CIDR,87.250.224.0/19,no-resolve
+  - IP-CIDR,93.158.128.0/18,no-resolve
+  - IP-CIDR,141.8.128.0/18,no-resolve
+  - IP-CIDR,178.154.128.0/18,no-resolve
+  - IP-CIDR,213.180.192.0/19,no-resolve
+
+  # ============================================================
+  # ДАТА-ЦЕНТРЫ VK И MAIL.RU (AS47764 / AS15774)
+  # ============================================================
+  - IP-CIDR,95.163.0.0/16,no-resolve
+  - IP-CIDR,128.140.168.0/21,no-resolve
+  - IP-CIDR,185.16.244.0/22,no-resolve
+  - IP-CIDR,185.30.176.0/22,no-resolve
+  - IP-CIDR,217.69.128.0/20,no-resolve
+
+  # ============================================================
+  # ИНФРАСТРУКТУРА СБЕРА, ГОСУСЛУГ И РОСТЕЛЕКОМ ЦОД
+  # ============================================================
+  - IP-CIDR,91.222.128.0/21,no-resolve
+  - IP-CIDR,109.207.0.0/18,no-resolve
+  - IP-CIDR,194.54.12.0/23,no-resolve
+  - IP-CIDR,194.54.14.0/23,no-resolve
+
+  # ============================================================
+  # РОССИЙСКИЕ ЗАЩИТНЫЕ СЕТИ И ХОСТИНГИ (DDOS-GUARD, QRATOR, SELECTEL)
+  # ============================================================
+  - IP-CIDR,45.10.240.0/24,no-resolve
+  - IP-CIDR,91.215.40.0/22,no-resolve
+  - IP-CIDR,95.213.128.0/17,no-resolve
+  - IP-CIDR,185.129.100.0/22,no-resolve
+  - IP-CIDR,185.169.152.0/22,no-resolve
+  - IP-CIDR,185.178.208.0/23,no-resolve
+  - IP-CIDR,185.197.168.0/22,no-resolve
+  - IP-CIDR,188.93.16.0/20,no-resolve
+  - IP-CIDR,195.161.112.0/21,no-resolve
+
+  # ============================================================
+  # ПУБЛИЧНЫЕ DNS-СЕРВЕРЫ В РФ (ЯНДЕКС, СБЕР)
+  # ============================================================
+  - IP-CIDR,77.88.8.8/32,no-resolve
+  - IP-CIDR,77.88.8.1/32,no-resolve
+  - IP-CIDR,84.252.128.84/32,no-resolve
