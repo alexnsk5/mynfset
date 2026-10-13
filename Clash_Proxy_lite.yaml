@@ -5,8 +5,14 @@ payload:
   - DOMAIN-KEYWORD,4pda
   - DOMAIN-KEYWORD,netflix
 
-  # === ZEROTIER (ВЕБ-ИНТЕРФЕЙС И ЦЕНТРАЛЬНЫЕ СЕРВЕРЫ) ===
+  # === ZEROTIER (ВЕБ, API И КОРНЕВЫЕ СЕРВЕРЫ PLANET) ===
   - DOMAIN-SUFFIX,zerotier.com
+  - IP-CIDR,103.195.103.66/32,no-resolve
+  - IP-CIDR,84.17.53.155/32,no-resolve
+  - IP-CIDR,185.152.67.145/32,no-resolve
+  - IP-CIDR,79.127.159.187/32,no-resolve
+  - IP-CIDR,66.90.98.98/32,no-resolve
+  - IP-CIDR,104.194.8.134/32,no-resolve
 
   # === IPTV ПОРТАЛ ===
   - DOMAIN-SUFFIX,tv.adslclub.ru
@@ -100,18 +106,4 @@ payload:
   - DOMAIN-SUFFIX,habrastorage.org
 
   # === СЕТЕВЫЕ УТИЛИТЫ И РАЗРАБОТКА ===
-  - DOMAIN-SUFFIX,brave.com
-  - DOMAIN-SUFFIX,feedly.com
-  - DOMAIN-SUFFIX,gecid.com
-  - DOMAIN-SUFFIX,cs2tricks.com
-  - DOMAIN-SUFFIX,schakal.ru
-  - DOMAIN-SUFFIX,itdog.info
-  - DOMAIN-SUFFIX,generator-warp.vercel.app
-  - DOMAIN-SUFFIX,make.com
-  - DOMAIN-SUFFIX,n8n.io
-  - DOMAIN-SUFFIX,n8n.cloud
-  - DOMAIN-SUFFIX,proxy6.net
-  - DOMAIN-SUFFIX,crosstalksolutions.com
-  - DOMAIN-SUFFIX,speed.cloudflare.com
-  - DOMAIN-SUFFIX,ip.me
-  - DOMAIN-SUFFIX,showip.net
+  - DOMAIN-SUFFIX,brave.co
