@@ -1,0 +1,114 @@
+# ============================================================
+# 4PDA (ФОРУМ И СЕРВЕРЫ АВТОРИЗАЦИИ)
+# ============================================================
+4pda.to
+4pda.ws
+4pda.ru
+2.56.178.172/32
+5.252.176.150/32
+31.131.253.250/32
+35.186.227.140/32
+85.192.30.120/32
+108.181.60.131/32
+185.87.51.182/32
+185.236.234.42/32
+188.114.98.228/32
+
+# ============================================================
+# SPOTIFY (ДОМЕНЫ, СТРИМИНГ-CDN И IP)
+# ============================================================
+spotify.com
+spoti.fi
+scdn.co
+pscdn.co
+byspotify.com
+spotifycdn.com
+spotifycdn.net
+spotifycharts.com
+spotifycodes.com
+spotifyforbrands.com
+spotifyjobs.com
+spotifynewsroom.jp
+spotilocal.com
+tospotify.com
+spotify.app.link
+spotify.design
+spotify-everywhere.com
+audio-ak-spotify-com.akamaized.net
+audio4-ak-spotify-com.akamaized.net
+heads-ak-spotify-com.akamaized.net
+heads4-ak-spotify-com.akamaized.net
+spotify-com.akamaized.net
+spotify.com.edgesuite.net
+spotify.map.fastly.net
+spotify.map.fastlylb.net
+cdn-spotify-experiments.conductrics.com
+104.154.127.126/32
+35.186.224.47/32
+
+# ============================================================
+# NETFLIX (ПОРТАЛ И ВИДЕОПОТОКИ)
+# ============================================================
+netflix.com
+netflix.net
+nflximg.net
+nflxvideo.net
+nflxext.com
+nflxso.net
+fast.com
+
+# ============================================================
+# EPIC GAMES, UNREAL ENGINE И АНТИЧИТ
+# ============================================================
+epicgames.com
+epicgames.dev
+epicgamescdn.com
+artstation.com
+capturingreality.com
+cubicmotion.com
+3lateral.com
+battlebreakers.com
+eac-cdn.com
+easy.ac
+easyanticheat.net
+fab.com
+fortnite.com
+hyprsense.com
+paragon.com
+playparagon.com
+quixel.com
+quixel.se
+radgametools.com
+realityscan.com
+roborecall.com
+shadowcomplex.com
+sketchfab.com
+spyjinx.com
+twinmotion.com
+unrealengine.com
+unrealtournament.com
+
+# ============================================================
+# HABR (ПРИ БЛОКИРОВКАХ С РОССИЙСКИХ IP)
+# ============================================================
+habr.com
+habrastorage.org
+
+# ============================================================
+# СЕТЕВЫЕ СЕРВИСЫ, УТИЛИТЫ И АВТОМАТИЗАЦИЯ
+# ============================================================
+brave.com
+feedly.com
+gecid.com
+cs2tricks.com
+schakal.ru
+itdog.info
+generator-warp.vercel.app
+make.com
+n8n.io
+n8n.cloud
+proxy6.net
+crosstalksolutions.com
+speed.cloudflare.com
+ip.me
+showip.net

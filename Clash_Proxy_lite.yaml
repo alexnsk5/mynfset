@@ -1,0 +1,111 @@
+payload:
+  # === КЛЮЧЕВЫЕ СЛОВА ===
+  - DOMAIN-KEYWORD,spotify
+  - DOMAIN-KEYWORD,epicgames
+  - DOMAIN-KEYWORD,4pda
+  - DOMAIN-KEYWORD,netflix
+
+  # === 4PDA ===
+  - DOMAIN,app.4pda.to
+  - DOMAIN-SUFFIX,4pda.to
+  - DOMAIN-SUFFIX,4pda.ws
+  - DOMAIN-SUFFIX,4pda.ru
+  - IP-CIDR,2.56.178.172/32,no-resolve
+  - IP-CIDR,5.252.176.150/32,no-resolve
+  - IP-CIDR,31.131.253.250/32,no-resolve
+  - IP-CIDR,35.186.227.140/32,no-resolve
+  - IP-CIDR,85.192.30.120/32,no-resolve
+  - IP-CIDR,108.181.60.131/32,no-resolve
+  - IP-CIDR,185.87.51.182/32,no-resolve
+  - IP-CIDR,185.236.234.42/32,no-resolve
+  - IP-CIDR,188.114.98.228/32,no-resolve
+
+  # === SPOTIFY (МУЗЫКА И CDN) ===
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,pscdn.co
+  - DOMAIN-SUFFIX,byspotify.com
+  - DOMAIN-SUFFIX,spotifycdn.com
+  - DOMAIN-SUFFIX,spotifycdn.net
+  - DOMAIN-SUFFIX,spotifycharts.com
+  - DOMAIN-SUFFIX,spotifycodes.com
+  - DOMAIN-SUFFIX,spotifyforbrands.com
+  - DOMAIN-SUFFIX,spotifyjobs.com
+  - DOMAIN-SUFFIX,spotifynewsroom.jp
+  - DOMAIN-SUFFIX,spotilocal.com
+  - DOMAIN-SUFFIX,tospotify.com
+  - DOMAIN-SUFFIX,spotify.app.link
+  - DOMAIN-SUFFIX,spotify.design
+  - DOMAIN-SUFFIX,spotify-everywhere.com
+  - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
+  - DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
+  - DOMAIN-SUFFIX,spotify-com.akamaized.net
+  - DOMAIN,audio4-ak-spotify-com.akamaized.net
+  - DOMAIN,heads-ak-spotify-com.akamaized.net
+  - DOMAIN,spotify.com.edgesuite.net
+  - DOMAIN,spotify.map.fastly.net
+  - DOMAIN,spotify.map.fastlylb.net
+  - DOMAIN,cdn-spotify-experiments.conductrics.com
+  - IP-CIDR,104.154.127.126/32,no-resolve
+  - IP-CIDR,35.186.224.47/32,no-resolve
+  - PROCESS-NAME,com.spotify.music
+
+  # === NETFLIX ===
+  - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,nflximg.net
+  - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN-SUFFIX,nflxext.com
+  - DOMAIN-SUFFIX,nflxso.net
+  - DOMAIN-SUFFIX,fast.com
+
+  # === EPIC GAMES & UNREAL ENGINE ===
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,epicgames.dev
+  - DOMAIN-SUFFIX,epicgamescdn.com
+  - DOMAIN-SUFFIX,artstation.com
+  - DOMAIN-SUFFIX,capturingreality.com
+  - DOMAIN-SUFFIX,cubicmotion.com
+  - DOMAIN-SUFFIX,3lateral.com
+  - DOMAIN-SUFFIX,battlebreakers.com
+  - DOMAIN-SUFFIX,eac-cdn.com
+  - DOMAIN-SUFFIX,easy.ac
+  - DOMAIN-SUFFIX,easyanticheat.net
+  - DOMAIN-SUFFIX,fab.com
+  - DOMAIN-SUFFIX,fortnite.com
+  - DOMAIN-SUFFIX,hyprsense.com
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,playparagon.com
+  - DOMAIN-SUFFIX,quixel.com
+  - DOMAIN-SUFFIX,quixel.se
+  - DOMAIN-SUFFIX,radgametools.com
+  - DOMAIN-SUFFIX,realityscan.com
+  - DOMAIN-SUFFIX,roborecall.com
+  - DOMAIN-SUFFIX,shadowcomplex.com
+  - DOMAIN-SUFFIX,sketchfab.com
+  - DOMAIN-SUFFIX,spyjinx.com
+  - DOMAIN-SUFFIX,twinmotion.com
+  - DOMAIN-SUFFIX,unrealengine.com
+  - DOMAIN-SUFFIX,unrealtournament.com
+
+  # === HABR ===
+  - DOMAIN-SUFFIX,habr.com
+  - DOMAIN-SUFFIX,habrastorage.org
+
+  # === СЕТЕВЫЕ УТИЛИТЫ И РАЗРАБОТКА ===
+  - DOMAIN-SUFFIX,brave.com
+  - DOMAIN-SUFFIX,feedly.com
+  - DOMAIN-SUFFIX,gecid.com
+  - DOMAIN-SUFFIX,cs2tricks.com
+  - DOMAIN-SUFFIX,schakal.ru
+  - DOMAIN-SUFFIX,itdog.info
+  - DOMAIN-SUFFIX,generator-warp.vercel.app
+  - DOMAIN-SUFFIX,make.com
+  - DOMAIN-SUFFIX,n8n.io
+  - DOMAIN-SUFFIX,n8n.cloud
+  - DOMAIN-SUFFIX,proxy6.net
+  - DOMAIN-SUFFIX,crosstalksolutions.com
+  - DOMAIN-SUFFIX,speed.cloudflare.com
+  - DOMAIN-SUFFIX,ip.me
+  - DOMAIN-SUFFIX,showip.net
