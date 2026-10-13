@@ -1,4 +1,41 @@
-# --- Торрент-трекеры ---
+# ============================================================
+# DISCORD (ДОМЕНЫ И ШЛЮЗЫ)
+# ============================================================
+discord.com
+discordapp.com
+discord.gg
+discord.media
+discordapp.net
+discord.co
+discordstatus.com
+dis.gd
+discordcdn.com
+
+# ============================================================
+# TWITTER / X
+# ============================================================
+x.com
+twitter.com
+t.co
+twimg.com
+tweetdeck.com
+twitpic.com
+periscope.tv
+pscp.tv
+
+# ============================================================
+# МУЗЫКА И ИГРЫ (SPOTIFY, STEAM, SOUNDCLOUD)
+# ============================================================
+spotify.com
+scdn.co
+spoti.fi
+steamcommunity.com
+soundcloud.com
+sndcdn.com
+
+# ============================================================
+# ТОРРЕНТ-ТРЕКЕРЫ
+# ============================================================
 rutracker.org
 rutracker.net
 rutracker.cc
@@ -21,37 +58,35 @@ torrentgalaxy.to
 thepiratebay.org
 nyaa.si
 
-# --- Зарубежные сервисы (с блокировкой по гео-IP) ---
-adobe.com
+# ============================================================
+# ЗАРУБЕЖНЫЕ IT-СЕРВИСЫ И ДИЗАЙН (С ГЕО-БЛОКИРОВКОЙ)
+# ============================================================
 canva.com
 canva.dev
+canvacdn.com
+linkedin.com
+licdn.com
+docker.com
+docker.io
+digitalocean.com
+hetzner.com
 capcut.com
 intel.com
 intel.de
 intel.nl
 developer.nvidia.com
 install.launcher.omniverse.nvidia.com
-docker.com
-digitalocean.com
-hetzner.com
 mullvad.net
 nordvpn.com
 proton.me
 protonvpn.com
 signal.org
 patreon.com
-linkedin.com
-notion.so
-notion.com
-deepl.com
-chat.com
-sora.com
-openai.com
-anthropic.com
-claude.ai
-perplexity.ai
 
-# --- Заблокированные СМИ и ресурсы ---
+# ============================================================
+# ЗАБЛОКИРОВАННЫЕ СМИ И АРХИВЫ
+# ============================================================
+archive.org
 bbc.com
 bbc.co.uk
 euronews.com
@@ -69,9 +104,20 @@ currenttime.tv
 kaktus.media
 agents.media
 
-# --- Служебные утилиты ---
+# ============================================================
+# СЛУЖЕБНЫЕ УТИЛИТЫ И ПРОВЕРКИ IP
+# ============================================================
 ipleak.net
 whoer.net
 censortracker.org
 ntc.party
 checkip.tools
+
+# ============================================================
+# IP-ПОДСЕТИ СЕРВЕРОВ ГОЛОСА DISCORD (VOICE GATEWAYS)
+# ============================================================
+66.22.196.0/22
+66.22.200.0/21
+66.22.208.0/20
+66.22.224.0/19
+162.158.0.0/15
