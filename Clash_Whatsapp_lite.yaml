@@ -1,0 +1,103 @@
+payload:
+  # === КЛЮЧЕВЫЕ СЛОВА ===
+  - DOMAIN-KEYWORD,whatsapp
+
+  # === ОСНОВНЫЕ ДОМЕНЫ И ВЕБ-СЛУЖБЫ ===
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,web.whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
+  - DOMAIN-SUFFIX,wa.me
+  - DOMAIN-SUFFIX,whatsapp.biz
+  - DOMAIN-SUFFIX,whatsapp.info
+  - DOMAIN-SUFFIX,whatsapp.org
+  - DOMAIN-SUFFIX,whatsapp.cc
+  - DOMAIN-SUFFIX,whatsapp.tv
+  - DOMAIN-SUFFIX,whatsappbrand.com
+
+  # === GRAPH API И МЕДИА-ШЛЮЗЫ ===
+  - DOMAIN-SUFFIX,graph.whatsapp.com
+  - DOMAIN-SUFFIX,graph.facebook.com
+  - DOMAIN-SUFFIX,mmg.whatsapp.net
+  - DOMAIN-SUFFIX,mms.whatsapp.net
+  - DOMAIN-SUFFIX,cdn.whatsapp.net
+  - DOMAIN-SUFFIX,media.whatsapp.net
+
+  # === СИГНАЛИЗАЦИЯ ЗВОНКОВ И ГРУППЫ ===
+  - DOMAIN-SUFFIX,v.whatsapp.net
+  - DOMAIN-SUFFIX,g.whatsapp.net
+  - DOMAIN-SUFFIX,ppl.whatsapp.net
+
+  # === СИНХРОНИЗАЦИЯ ЧАТОВ И CDN ===
+  - DOMAIN-SUFFIX,whatsapp-chatd-edge-shv.facebook.com
+  - DOMAIN-SUFFIX,whatsapp-chatd-msgr-edge-shv.facebook.com
+  - DOMAIN-SUFFIX,whatsapp-cdn-shv.fbcdn.net
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN-SUFFIX,tfbnw.net
+
+  # === РЕЛЕ ЗВОНКОВ (AWS GLOBAL ACCELERATOR TURN/STUN) ===
+  - IP-CIDR,3.33.221.48/32,no-resolve
+  - IP-CIDR,3.33.252.61/32,no-resolve
+  - IP-CIDR,15.197.206.217/32,no-resolve
+  - IP-CIDR,15.197.210.208/32,no-resolve
+  - IP-CIDR,34.192.181.12/32,no-resolve
+  - IP-CIDR,34.193.38.112/32,no-resolve
+  - IP-CIDR,34.194.71.217/32,no-resolve
+  - IP-CIDR,34.194.255.230/32,no-resolve
+
+  # === ПРЯМЫЕ СЕРВЕРЫ CHATD ===
+  - IP-CIDR,31.13.64.60/31,no-resolve
+  - IP-CIDR,31.13.65.49/32,no-resolve
+  - IP-CIDR,31.13.65.50/32,no-resolve
+  - IP-CIDR,31.13.66.51/32,no-resolve
+  - IP-CIDR,31.13.66.56/32,no-resolve
+  - IP-CIDR,31.13.67.52/31,no-resolve
+  - IP-CIDR,31.13.68.60/31,no-resolve
+  - IP-CIDR,31.13.69.60/31,no-resolve
+  - IP-CIDR,31.13.70.49/32,no-resolve
+  - IP-CIDR,31.13.70.50/32,no-resolve
+  - IP-CIDR,31.13.71.49/32,no-resolve
+  - IP-CIDR,31.13.71.50/32,no-resolve
+  - IP-CIDR,31.13.72.48/32,no-resolve
+  - IP-CIDR,31.13.72.52/32,no-resolve
+  - IP-CIDR,31.13.73.52/31,no-resolve
+  - IP-CIDR,31.13.74.52/31,no-resolve
+  - IP-CIDR,31.13.75.60/31,no-resolve
+  - IP-CIDR,31.13.76.60/31,no-resolve
+  - IP-CIDR,31.13.77.60/31,no-resolve
+  - IP-CIDR,31.13.78.60/31,no-resolve
+  - IP-CIDR,31.13.79.53/32,no-resolve
+  - IP-CIDR,31.13.79.54/32,no-resolve
+  - IP-CIDR,31.13.80.48/32,no-resolve
+  - IP-CIDR,31.13.80.53/32,no-resolve
+  - IP-CIDR,31.13.81.48/32,no-resolve
+  - IP-CIDR,31.13.81.53/32,no-resolve
+  - IP-CIDR,31.13.82.51/32,no-resolve
+  - IP-CIDR,31.13.82.55/32,no-resolve
+  - IP-CIDR,31.13.83.49/32,no-resolve
+  - IP-CIDR,31.13.83.51/32,no-resolve
+  - IP-CIDR,31.13.84.49/32,no-resolve
+  - IP-CIDR,31.13.84.51/32,no-resolve
+  - IP-CIDR,31.13.85.49/32,no-resolve
+  - IP-CIDR,31.13.85.51/32,no-resolve
+  - IP-CIDR,31.13.86.49/32,no-resolve
+  - IP-CIDR,31.13.86.51/32,no-resolve
+  - IP-CIDR,31.13.87.48/32,no-resolve
+  - IP-CIDR,31.13.87.51/32,no-resolve
+  - IP-CIDR,31.13.88.60/31,no-resolve
+  - IP-CIDR,31.13.89.53/32,no-resolve
+  - IP-CIDR,31.13.89.54/32,no-resolve
+  - IP-CIDR,31.13.90.60/31,no-resolve
+  - IP-CIDR,31.13.91.60/31,no-resolve
+  - IP-CIDR,31.13.92.48/32,no-resolve
+  - IP-CIDR,31.13.92.52/32,no-resolve
+  - IP-CIDR,31.13.93.53/32,no-resolve
+  - IP-CIDR,31.13.93.54/32,no-resolve
+  - IP-CIDR,31.13.94.52/32,no-resolve
+  - IP-CIDR,31.13.94.54/32,no-resolve
+  - IP-CIDR,31.13.95.60/31,no-resolve
+  - IP-CIDR,69.171.250.60/31,no-resolve
+  - IP-CIDR,157.240.0.60/31,no-resolve
+  - IP-CIDR,185.60.216.53/32,no-resolve
+  - IP-CIDR,185.60.216.54/32,no-resolve
+  - IP-CIDR,185.60.219.60/31,no-resolve

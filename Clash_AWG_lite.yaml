@@ -1,0 +1,128 @@
+payload:
+  # === КЛЮЧЕВЫЕ СЛОВА ===
+  - DOMAIN-KEYWORD,discord
+  - DOMAIN-KEYWORD,twitter
+  - DOMAIN-KEYWORD,twimg
+  - DOMAIN-KEYWORD,pornhub
+  - DOMAIN-KEYWORD,spotify
+  - DOMAIN-KEYWORD,rutracker
+  - DOMAIN-KEYWORD,rutor
+  - DOMAIN-KEYWORD,nnmclub
+  - DOMAIN-KEYWORD,kinozal
+  - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,meduza
+  - DOMAIN-KEYWORD,protonvpn
+
+  # === DISCORD ===
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,discord.media
+  - DOMAIN-SUFFIX,discordapp.net
+  - DOMAIN-SUFFIX,discord.co
+  - DOMAIN-SUFFIX,discordstatus.com
+  - DOMAIN-SUFFIX,dis.gd
+  - DOMAIN-SUFFIX,discordcdn.com
+  - IP-CIDR,66.22.196.0/22,no-resolve
+  - IP-CIDR,66.22.200.0/21,no-resolve
+  - IP-CIDR,66.22.208.0/20,no-resolve
+  - IP-CIDR,66.22.224.0/19,no-resolve
+  - IP-CIDR,162.158.0.0/15,no-resolve
+
+  # === TWITTER / X ===
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,tweetdeck.com
+  - DOMAIN-SUFFIX,twitpic.com
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,pscp.tv
+
+  # === 18+ (PORNHUB) ===
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,modelhub.com
+
+  # === МУЗЫКА И ИГРЫ (SPOTIFY, STEAM, SOUNDCLOUD) ===
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,soundcloud.com
+  - DOMAIN-SUFFIX,sndcdn.com
+
+  # === IT-СЕРВИСЫ И ДИЗАЙН (CANVA, LINKEDIN, DOCKER) ===
+  - DOMAIN-SUFFIX,canva.com
+  - DOMAIN-SUFFIX,canva.dev
+  - DOMAIN-SUFFIX,canvacdn.com
+  - DOMAIN-SUFFIX,linkedin.com
+  - DOMAIN-SUFFIX,licdn.com
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,digitalocean.com
+  - DOMAIN-SUFFIX,hetzner.com
+  - DOMAIN-SUFFIX,capcut.com
+  - DOMAIN-SUFFIX,intel.com
+  - DOMAIN-SUFFIX,intel.de
+  - DOMAIN-SUFFIX,intel.nl
+  - DOMAIN-SUFFIX,developer.nvidia.com
+  - DOMAIN-SUFFIX,install.launcher.omniverse.nvidia.com
+
+  # === VPN И БЕЗОПАСНОСТЬ ===
+  - DOMAIN-SUFFIX,mullvad.net
+  - DOMAIN-SUFFIX,nordvpn.com
+  - DOMAIN-SUFFIX,proton.me
+  - DOMAIN-SUFFIX,protonvpn.com
+  - DOMAIN-SUFFIX,signal.org
+  - DOMAIN-SUFFIX,patreon.com
+
+  # === ТОРРЕНТ-ТРЕКЕРЫ ===
+  - DOMAIN-SUFFIX,rutracker.org
+  - DOMAIN-SUFFIX,rutracker.net
+  - DOMAIN-SUFFIX,rutracker.cc
+  - DOMAIN-SUFFIX,rutracker.wiki
+  - DOMAIN-SUFFIX,rutor.info
+  - DOMAIN-SUFFIX,rutor.is
+  - DOMAIN-SUFFIX,rutor.org
+  - DOMAIN-SUFFIX,nnmclub.to
+  - DOMAIN-SUFFIX,nnmstatic.win
+  - DOMAIN-SUFFIX,kinozal.tv
+  - DOMAIN-SUFFIX,kinozal.guru
+  - DOMAIN-SUFFIX,pornolab.net
+  - DOMAIN-SUFFIX,booktracker.org
+  - DOMAIN-SUFFIX,lostfilm.tv
+  - DOMAIN-SUFFIX,megapeer.vip
+  - DOMAIN-SUFFIX,fast-torrent.club
+  - DOMAIN-SUFFIX,tapochek.net
+  - DOMAIN-SUFFIX,torrentgalaxy.to
+  - DOMAIN-SUFFIX,1337x.to
+  - DOMAIN-SUFFIX,thepiratebay.org
+  - DOMAIN-SUFFIX,nyaa.si
+
+  # === ЗАБЛОКИРОВАННЫЕ СМИ И АРХИВЫ ===
+  - DOMAIN-SUFFIX,archive.org
+  - DOMAIN-SUFFIX,bbc.com
+  - DOMAIN-SUFFIX,bbc.co.uk
+  - DOMAIN-SUFFIX,euronews.com
+  - DOMAIN-SUFFIX,dw.com
+  - DOMAIN-SUFFIX,meduza.io
+  - DOMAIN-SUFFIX,mediazona.ca
+  - DOMAIN-SUFFIX,novayagazeta.eu
+  - DOMAIN-SUFFIX,svoboda.org
+  - DOMAIN-SUFFIX,tvrain.tv
+  - DOMAIN-SUFFIX,theins.ru
+  - DOMAIN-SUFFIX,proekt.media
+  - DOMAIN-SUFFIX,zona.media
+  - DOMAIN-SUFFIX,republic.ru
+  - DOMAIN-SUFFIX,currenttime.tv
+  - DOMAIN-SUFFIX,kaktus.media
+  - DOMAIN-SUFFIX,agents.media
+
+  # === УТИЛИТЫ И ПРОВЕРКИ IP ===
+  - DOMAIN-SUFFIX,ipleak.net
+  - DOMAIN-SUFFIX,whoer.net
+  - DOMAIN-SUFFIX,censortracker.org
+  - DOMAIN-SUFFIX,ntc.party
+  - DOMAIN-SUFFIX,checkip.tools

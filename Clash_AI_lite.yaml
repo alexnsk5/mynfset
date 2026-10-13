@@ -1,0 +1,128 @@
+payload:
+  # === КЛЮЧЕВЫЕ СЛОВА ===
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,chatgpt
+  - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-KEYWORD,claude
+  - DOMAIN-KEYWORD,copilot
+  - DOMAIN-KEYWORD,speedtest
+  - DOMAIN-KEYWORD,ookla
+  - DOMAIN-KEYWORD,perplexity
+  - DOMAIN-KEYWORD,midjourney
+  - DOMAIN-KEYWORD,deepseek
+  - DOMAIN-KEYWORD,openrouter
+  - DOMAIN-KEYWORD,elevenlabs
+
+  # === OPENAI & SORA ===
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,statsig.com
+  - DOMAIN-SUFFIX,statsigapi.net
+  - IP-CIDR,199.47.142.0/23,no-resolve
+  - IP-CIDR,132.196.86.0/24,no-resolve
+  - IP-CIDR,172.182.204.0/24,no-resolve
+  - IP-CIDR,172.182.214.0/24,no-resolve
+  - IP-CIDR,20.171.206.0/24,no-resolve
+  - IP-CIDR,20.171.207.0/24,no-resolve
+
+  # === ANTHROPIC CLAUDE ===
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,clau.de
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-SUFFIX,claudemcpcontent.com
+  - IP-CIDR,160.79.104.0/23,no-resolve
+
+  # === xAI GROK ===
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
+  - IP-CIDR,104.244.40.0/21,no-resolve
+  - IP-CIDR,199.16.156.0/22,no-resolve
+  - IP-CIDR,199.59.148.0/22,no-resolve
+  - IP-CIDR,199.96.56.0/21,no-resolve
+  - IP-CIDR,209.237.192.0/19,no-resolve
+
+  # === MICROSOFT COPILOT ===
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN-SUFFIX,sydney.bing.com
+  - DOMAIN-SUFFIX,edgeservices.bing.com
+  - IP-CIDR,140.82.112.0/20,no-resolve
+
+  # === GOOGLE GEMINI & AI LABS ===
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,alkalimakersuite.google.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,aitestkitchen.withgoogle.com
+  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+  - DOMAIN-SUFFIX,labs.google
+
+  # === AI СРЕДЫ РАЗРАБОТКИ (IDE) ===
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursorapi.com
+  - DOMAIN-SUFFIX,windsurf.com
+  - DOMAIN-SUFFIX,codeium.com
+  - DOMAIN-SUFFIX,trae.ai
+  - DOMAIN-SUFFIX,v0.dev
+  - DOMAIN-SUFFIX,replit.com
+
+  # === ПОПУЛЯРНЫЕ ИИ-СЕРВИСЫ ===
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,pplx.ai
+  - DOMAIN-SUFFIX,mistral.ai
+  - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,openrouter.ai
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,cerebras.ai
+  - DOMAIN-SUFFIX,together.ai
+  - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,manus.im
+  - DOMAIN-SUFFIX,notion.so
+  - DOMAIN-SUFFIX,notion.com
+  - DOMAIN-SUFFIX,midjourney.com
+  - DOMAIN-SUFFIX,runwayml.com
+  - DOMAIN-SUFFIX,runway.com
+  - DOMAIN-SUFFIX,pika.art
+  - DOMAIN-SUFFIX,klingai.com
+  - DOMAIN-SUFFIX,lumalabs.ai
+  - DOMAIN-SUFFIX,krea.ai
+  - DOMAIN-SUFFIX,blackforestlabs.ai
+  - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,hf.co
+  - DOMAIN-SUFFIX,elevenlabs.io
+  - DOMAIN-SUFFIX,elevenreader.io
+  - DOMAIN-SUFFIX,suno.ai
+  - DOMAIN-SUFFIX,suno.com
+  - DOMAIN-SUFFIX,udio.com
+  - DOMAIN-SUFFIX,deepl.com
+  - DOMAIN-SUFFIX,mchost.guru
+
+  # === ADOBE (АВТОРИЗАЦИЯ И ОБЛАКО) ===
+  - DOMAIN-SUFFIX,adobe.com
+  - DOMAIN-SUFFIX,adobe.io
+  - DOMAIN-SUFFIX,adobelogin.com
+  - DOMAIN-SUFFIX,adobeexchange.com
+  - DOMAIN-SUFFIX,licenses.adobe.com
+  - DOMAIN-SUFFIX,auth.services.adobe.com
+  - DOMAIN-SUFFIX,ims-na1.adobelogin.com
+  - DOMAIN-SUFFIX,cc-api-data.adobe.io
+
+  # === SPEEDTEST (OOKLA) ===
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,ooklaserver.net
+  - DOMAIN-SUFFIX,speedtestcustom.com
