@@ -5,6 +5,12 @@ payload:
   - DOMAIN-KEYWORD,4pda
   - DOMAIN-KEYWORD,netflix
 
+  # === ZEROTIER (ВЕБ-ИНТЕРФЕЙС И ЦЕНТРАЛЬНЫЕ СЕРВЕРЫ) ===
+  - DOMAIN-SUFFIX,zerotier.com
+
+  # === IPTV ПОРТАЛ ===
+  - DOMAIN-SUFFIX,tv.adslclub.ru
+
   # === 4PDA ===
   - DOMAIN,app.4pda.to
   - DOMAIN-SUFFIX,4pda.to
