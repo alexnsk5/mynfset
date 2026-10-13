@@ -1,19 +1,15 @@
 payload:
-  # ============================================================
-  # 1. КЛЮЧЕВЫЕ СЛОВА
-  # ============================================================
+  # === КЛЮЧЕВЫЕ СЛОВА ===
   - DOMAIN-KEYWORD,telegram
   - DOMAIN-KEYWORD,telegra
   - DOMAIN-KEYWORD,tdesktop
   - DOMAIN-KEYWORD,nicegram
 
-  # ============================================================
-  # 2. ДОМЕНЫ И СЕРВИСЫ TELEGRAM
-  # ============================================================
+  # === ДОМЕНЫ И СЕРВИСЫ ===
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tx.me
   - DOMAIN-SUFFIX,tg.dev
-  - DOMAIN-SUFFIX,stel.com               # Авторизация и SMS Telegram
+  - DOMAIN-SUFFIX,stel.com
   - DOMAIN-SUFFIX,telegram.org
   - DOMAIN-SUFFIX,telegram.me
   - DOMAIN-SUFFIX,telegram.dog
@@ -30,41 +26,31 @@ payload:
   - DOMAIN-SUFFIX,comments.app
   - DOMAIN-SUFFIX,contest.com
   - DOMAIN-SUFFIX,quiz.directory
-  - DOMAIN-SUFFIX,fragment.com           # Платформа Fragment (TON / Telegram)
+  - DOMAIN-SUFFIX,fragment.com
   - DOMAIN-SUFFIX,telega.one
   - DOMAIN-SUFFIX,usercontent.dev
-
-  # Сторонние клиенты (Swiftgram, iMe, Mobius)
   - DOMAIN,api.swiftgram.app
   - DOMAIN,api.imem.app
   - DOMAIN-SUFFIX,mbrx.app
 
-  # ============================================================
-  # 3. ОФИЦИАЛЬНЫЕ IPV4-ПОДСЕТИ TELEGRAM
-  # ============================================================
-  - IP-CIDR,5.28.192.0/18,no-resolve      # Дата-центры Telegram FZ-LLC
+  # === ПОДСЕТИ IPV4 ===
+  - IP-CIDR,5.28.192.0/18,no-resolve
   - IP-CIDR,91.105.192.0/23,no-resolve
-  - IP-CIDR,91.108.0.0/16,no-resolve      # Полный пул DC Telegram (91.108.x.x)
+  - IP-CIDR,91.108.0.0/16,no-resolve
   - IP-CIDR,95.161.64.0/20,no-resolve
   - IP-CIDR,109.239.140.0/24,no-resolve
-  - IP-CIDR,149.154.160.0/20,no-resolve   # Основной пул серверов Европы/мира
+  - IP-CIDR,149.154.160.0/20,no-resolve
   - IP-CIDR,185.76.151.0/24,no-resolve
-
-  # Дополнительные серверы
   - IP-CIDR,139.59.210.98/32,no-resolve
   - IP-CIDR,196.55.216.167/32,no-resolve
 
-  # ============================================================
-  # 4. IPV6-ПОДСЕТИ TELEGRAM
-  # ============================================================
+  # === ПОДСЕТИ IPV6 ===
   - IP-CIDR6,2001:67c:4e8::/48,no-resolve
   - IP-CIDR6,2001:b28:f23c::/47,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,no-resolve
   - IP-CIDR6,2a0a:f280::/29,no-resolve
 
-  # ============================================================
-  # 5. ИМЕНА ПРОЦЕССОВ (ДЛЯ РЕЖИМА TUN / ПРИЛОЖЕНИЙ)
-  # ============================================================
+  # === ПРОЦЕССЫ (ДЛЯ TUN-РЕЖИМА) ===
   - PROCESS-NAME,Telegram.exe
   - PROCESS-NAME,telegram-desktop
   - PROCESS-NAME,org.telegram.messenger
