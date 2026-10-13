@@ -1,3 +1,6 @@
+# ============================================================
+# СЕРВИСЫ ИИ (OPENAI, CLAUDE, GEMINI, GROK, COPILOT)
+# ============================================================
 chatgpt.com
 openai.com
 oaistatic.com
@@ -5,15 +8,24 @@ oaiusercontent.com
 chat.com
 sora.com
 auth0.com
+openaiapi-site.azureedge.net
+statsig.com
+statsigapi.net
+
 claude.ai
 anthropic.com
 clau.de
 claudeusercontent.com
 claudemcpcontent.com
-perplexity.ai
-pplx.ai
+
 grok.com
 x.ai
+
+copilot.microsoft.com
+githubcopilot.com
+sydney.bing.com
+edgeservices.bing.com
+
 gemini.google.com
 aistudio.google.com
 generativeai.google
@@ -26,10 +38,20 @@ makersuite.google.com
 aitestkitchen.withgoogle.com
 aisandbox-pa.googleapis.com
 labs.google
-copilot.microsoft.com
-githubcopilot.com
-sydney.bing.com
-edgeservices.bing.com
+
+# IDE и AI-ассистенты разработчика
+cursor.com
+cursor.sh
+cursorapi.com
+windsurf.com
+codeium.com
+trae.ai
+v0.dev
+replit.com
+
+# Популярные ИИ-платформы и генераторы
+perplexity.ai
+pplx.ai
 meta.ai
 mistral.ai
 deepseek.com
@@ -39,18 +61,9 @@ groq.com
 cerebras.ai
 together.ai
 cohere.com
-cursor.com
-cursor.sh
-cursorapi.com
-windsurf.com
-codeium.com
-trae.ai
-mchost.guru
 manus.im
 notion.so
 notion.com
-v0.dev
-replit.com
 midjourney.com
 runwayml.com
 runway.com
@@ -68,11 +81,34 @@ suno.ai
 suno.com
 udio.com
 deepl.com
+mchost.guru
 
-# --- Anthropic (Claude AI - AS399358) ---
+# ============================================================
+# ADOBE CREATIVE CLOUD (АВТОРИЗАЦИЯ И СЕРВИСЫ)
+# ============================================================
+adobe.com
+adobe.io
+adobelogin.com
+adobeexchange.com
+licenses.adobe.com
+auth.services.adobe.com
+ims-na1.adobelogin.com
+cc-api-data.adobe.io
+
+# ============================================================
+# OOKLA SPEEDTEST
+# ============================================================
+speedtest.net
+ooklaserver.net
+speedtestcustom.com
+
+# ============================================================
+# IP-ПОДСЕТИ ИИ-СЕРВИСОВ
+# ============================================================
+# Anthropic Claude (AS399358)
 160.79.104.0/23
 
-# --- OpenAI (ChatGPT & API - AS401518) ---
+# OpenAI ChatGPT (AS401518)
 199.47.142.0/23
 132.196.86.0/24
 172.182.204.0/24
@@ -80,12 +116,12 @@ deepl.com
 20.171.206.0/24
 20.171.207.0/24
 
-# --- xAI (Grok - AS400297 / X Networks) ---
+# xAI Grok (AS400297)
 104.244.40.0/21
 199.16.156.0/22
 199.59.148.0/22
 199.96.56.0/21
 209.237.192.0/19
 
-# --- GitHub Copilot (GitHub Inc. - AS36459) ---
+# GitHub Copilot (AS36459)
 140.82.112.0/20
