@@ -9,6 +9,10 @@ whatsapp.net
 wa.me
 whatsapp.biz
 whatsapp.info
+whatsapp.org
+whatsapp.cc
+whatsapp.tv
+whatsappbrand.com
 
 # Graph API (Критично: получение токенов медиа и мгновенная доставка сообщений)
 graph.facebook.com
@@ -33,6 +37,7 @@ whatsapp-chatd-edge-shv.facebook.com
 whatsapp-chatd-msgr-edge-shv.facebook.com
 facebook.net
 meta.com
+tfbnw.net
 
 # ============================================================
 # 2. ОФИЦИАЛЬНЫЕ IP-СЕРВЕРЫ META DEVELOPERS (WHATSAPP REQUIREMENT)
