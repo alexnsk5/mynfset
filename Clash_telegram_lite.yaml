@@ -1,62 +1,73 @@
 payload:
-  # --- Ключевые слова ---
+  # ============================================================
+  # 1. КЛЮЧЕВЫЕ СЛОВА
+  # ============================================================
   - DOMAIN-KEYWORD,telegram
   - DOMAIN-KEYWORD,telegra
   - DOMAIN-KEYWORD,tdesktop
+  - DOMAIN-KEYWORD,nicegram
 
-  # --- Домены ---
+  # ============================================================
+  # 2. ДОМЕНЫ И СЕРВИСЫ TELEGRAM
+  # ============================================================
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tx.me
+  - DOMAIN-SUFFIX,tg.dev
+  - DOMAIN-SUFFIX,stel.com               # Авторизация и SMS Telegram
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,telegram.dog
+  - DOMAIN-SUFFIX,telegram.space
+  - DOMAIN-SUFFIX,telegram.com
+  - DOMAIN-SUFFIX,telegram-cdn.org
   - DOMAIN-SUFFIX,cdn-telegram.org
+  - DOMAIN-SUFFIX,telegramdownload.com
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telesco.pe
+  - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,legra.ph
+  - DOMAIN-SUFFIX,graph.org
   - DOMAIN-SUFFIX,comments.app
   - DOMAIN-SUFFIX,contest.com
-  - DOMAIN-SUFFIX,fragment.com
-  - DOMAIN-SUFFIX,graph.org
   - DOMAIN-SUFFIX,quiz.directory
-  - DOMAIN-SUFFIX,t.me
-  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,fragment.com           # Платформа Fragment (TON / Telegram)
   - DOMAIN-SUFFIX,telega.one
-  - DOMAIN-SUFFIX,telegra.ph
-  - DOMAIN-SUFFIX,telegram-cdn.org
-  - DOMAIN-SUFFIX,telegram.com
-  - DOMAIN-SUFFIX,telegram.dog
-  - DOMAIN-SUFFIX,telegram.me
-  - DOMAIN-SUFFIX,telegram.org
-  - DOMAIN-SUFFIX,telegram.space
-  - DOMAIN-SUFFIX,telesco.pe
-  - DOMAIN-SUFFIX,tg.dev
-  - DOMAIN-SUFFIX,tx.me
   - DOMAIN-SUFFIX,usercontent.dev
 
-  # --- Подсети IP ---
+  # Сторонние клиенты (Swiftgram, iMe, Mobius)
+  - DOMAIN,api.swiftgram.app
+  - DOMAIN,api.imem.app
+  - DOMAIN-SUFFIX,mbrx.app
+
+  # ============================================================
+  # 3. ОФИЦИАЛЬНЫЕ IPV4-ПОДСЕТИ TELEGRAM
+  # ============================================================
+  - IP-CIDR,5.28.192.0/18,no-resolve      # Дата-центры Telegram FZ-LLC
   - IP-CIDR,91.105.192.0/23,no-resolve
-  - IP-CIDR,91.108.4.0/22,no-resolve
-  - IP-CIDR,91.108.8.0/22,no-resolve
-  - IP-CIDR,91.108.12.0/22,no-resolve
-  - IP-CIDR,91.108.16.0/22,no-resolve
-  - IP-CIDR,91.108.20.0/22,no-resolve
-  - IP-CIDR,91.108.56.0/22,no-resolve
+  - IP-CIDR,91.108.0.0/16,no-resolve      # Полный пул DC Telegram (91.108.x.x)
   - IP-CIDR,95.161.64.0/20,no-resolve
-  - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR,109.239.140.0/24,no-resolve
+  - IP-CIDR,149.154.160.0/20,no-resolve   # Основной пул серверов Европы/мира
   - IP-CIDR,185.76.151.0/24,no-resolve
 
-  # --- Точечные IP-адреса ---
-  - IP-CIDR,149.154.162.203/32,no-resolve
-  - IP-CIDR,149.154.162.204/32,no-resolve
-  - IP-CIDR,149.154.162.247/32,no-resolve
-  - IP-CIDR,149.154.164.3/32,no-resolve
-  - IP-CIDR,149.154.164.13/32,no-resolve
-  - IP-CIDR,149.154.164.24/32,no-resolve
-  - IP-CIDR,149.154.164.25/32,no-resolve
-  - IP-CIDR,149.154.165.133/32,no-resolve
-  - IP-CIDR,149.154.165.137/32,no-resolve
-  - IP-CIDR,149.154.166.110/32,no-resolve
-  - IP-CIDR,149.154.167.80/32,no-resolve
-  - IP-CIDR,149.154.167.99/32,no-resolve
-  - IP-CIDR,149.154.167.220/32,no-resolve
-  - IP-CIDR,149.154.171.236/32,no-resolve
-  - IP-CIDR,149.154.171.237/32,no-resolve
-  - IP-CIDR,149.154.175.204/32,no-resolve
-  - IP-CIDR,149.154.175.205/32,no-resolve
-  - IP-CIDR,95.161.64.10/32,no-resolve
-  - IP-CIDR,95.161.64.16/32,no-resolve
-  - IP-CIDR,95.161.64.99/32,no-resolve
-  - IP-CIDR,95.161.64.100/32,no-resolve
+  # Дополнительные серверы
+  - IP-CIDR,139.59.210.98/32,no-resolve
+  - IP-CIDR,196.55.216.167/32,no-resolve
+
+  # ============================================================
+  # 4. IPV6-ПОДСЕТИ TELEGRAM
+  # ============================================================
+  - IP-CIDR6,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR6,2001:b28:f23c::/47,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,no-resolve
+  - IP-CIDR6,2a0a:f280::/29,no-resolve
+
+  # ============================================================
+  # 5. ИМЕНА ПРОЦЕССОВ (ДЛЯ РЕЖИМА TUN / ПРИЛОЖЕНИЙ)
+  # ============================================================
+  - PROCESS-NAME,Telegram.exe
+  - PROCESS-NAME,telegram-desktop
+  - PROCESS-NAME,org.telegram.messenger
+  - PROCESS-NAME,nekox.messenger
+  - PROCESS-NAME,tw.nekomimi.nekogram
+  - PROCESS-NAME,xyz.nextalone.nagram
