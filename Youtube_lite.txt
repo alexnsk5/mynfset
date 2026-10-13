@@ -1,9 +1,15 @@
+# ============================================================
+# ДОМЕНЫ И CDN YOUTUBE / GOOGLE VIDEO
+# ============================================================
 youtube.com
 youtu.be
+yt.be
 googlevideo.com
 ytimg.com
 ggpht.com
 gvt1.com
+gvt2.com
+widevine.com
 youtube-nocookie.com
 youtubei.googleapis.com
 youtube.googleapis.com
@@ -11,6 +17,10 @@ youtubekids.com
 jnn-pa.googleapis.com
 wide-youtube.l.google.com
 nhacmp3youtube.com
+
+# ============================================================
+# ПОДСЕТИ GOOGLE / YOUTUBE (IPV4)
+# ============================================================
 64.233.160.0/19
 66.102.0.0/20
 66.249.64.0/19
