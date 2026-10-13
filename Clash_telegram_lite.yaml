@@ -1,0 +1,62 @@
+payload:
+  # --- Ключевые слова ---
+  - DOMAIN-KEYWORD,telegram
+  - DOMAIN-KEYWORD,telegra
+  - DOMAIN-KEYWORD,tdesktop
+
+  # --- Домены ---
+  - DOMAIN-SUFFIX,cdn-telegram.org
+  - DOMAIN-SUFFIX,comments.app
+  - DOMAIN-SUFFIX,contest.com
+  - DOMAIN-SUFFIX,fragment.com
+  - DOMAIN-SUFFIX,graph.org
+  - DOMAIN-SUFFIX,quiz.directory
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telega.one
+  - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,telegram-cdn.org
+  - DOMAIN-SUFFIX,telegram.com
+  - DOMAIN-SUFFIX,telegram.dog
+  - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,telegram.space
+  - DOMAIN-SUFFIX,telesco.pe
+  - DOMAIN-SUFFIX,tg.dev
+  - DOMAIN-SUFFIX,tx.me
+  - DOMAIN-SUFFIX,usercontent.dev
+
+  # --- Подсети IP ---
+  - IP-CIDR,91.105.192.0/23,no-resolve
+  - IP-CIDR,91.108.4.0/22,no-resolve
+  - IP-CIDR,91.108.8.0/22,no-resolve
+  - IP-CIDR,91.108.12.0/22,no-resolve
+  - IP-CIDR,91.108.16.0/22,no-resolve
+  - IP-CIDR,91.108.20.0/22,no-resolve
+  - IP-CIDR,91.108.56.0/22,no-resolve
+  - IP-CIDR,95.161.64.0/20,no-resolve
+  - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR,185.76.151.0/24,no-resolve
+
+  # --- Точечные IP-адреса ---
+  - IP-CIDR,149.154.162.203/32,no-resolve
+  - IP-CIDR,149.154.162.204/32,no-resolve
+  - IP-CIDR,149.154.162.247/32,no-resolve
+  - IP-CIDR,149.154.164.3/32,no-resolve
+  - IP-CIDR,149.154.164.13/32,no-resolve
+  - IP-CIDR,149.154.164.24/32,no-resolve
+  - IP-CIDR,149.154.164.25/32,no-resolve
+  - IP-CIDR,149.154.165.133/32,no-resolve
+  - IP-CIDR,149.154.165.137/32,no-resolve
+  - IP-CIDR,149.154.166.110/32,no-resolve
+  - IP-CIDR,149.154.167.80/32,no-resolve
+  - IP-CIDR,149.154.167.99/32,no-resolve
+  - IP-CIDR,149.154.167.220/32,no-resolve
+  - IP-CIDR,149.154.171.236/32,no-resolve
+  - IP-CIDR,149.154.171.237/32,no-resolve
+  - IP-CIDR,149.154.175.204/32,no-resolve
+  - IP-CIDR,149.154.175.205/32,no-resolve
+  - IP-CIDR,95.161.64.10/32,no-resolve
+  - IP-CIDR,95.161.64.16/32,no-resolve
+  - IP-CIDR,95.161.64.99/32,no-resolve
+  - IP-CIDR,95.161.64.100/32,no-resolve
