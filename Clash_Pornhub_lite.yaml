@@ -1,0 +1,33 @@
+payload:
+  # === КЛЮЧЕВЫЕ СЛОВА ===
+  - DOMAIN-KEYWORD,pornhub
+  - DOMAIN-KEYWORD,phncdn
+  - DOMAIN-KEYWORD,xvideos
+  - DOMAIN-KEYWORD,xhamster
+
+  # === ДОМЕНЫ PORNHUB И СЕТИ AYLO ===
+  - DOMAIN-SUFFIX,pornhub.com
+  - DOMAIN-SUFFIX,pornhub.org
+  - DOMAIN-SUFFIX,pornhubpremium.com
+  - DOMAIN-SUFFIX,phncdn.com
+  - DOMAIN-SUFFIX,phprcdn.com
+  - DOMAIN-SUFFIX,modelhub.com
+
+  # === ДРУГИЕ 18+ СЕРВИСЫ ===
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,xv-ru.com
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,xhamsterlive.com
+  - DOMAIN-SUFFIX,hqporner.com
+  - DOMAIN-SUFFIX,multporn.net
+  - DOMAIN-SUFFIX,pornolab.net
+
+  # === ПОДСЕТИ СЕРВЕРОВ И СТРИМИНГ-CDN ===
+  - IP-CIDR,64.210.128.0/19,no-resolve
+  - IP-CIDR,64.88.240.0/20,no-resolve
+  - IP-CIDR,66.254.96.0/19,no-resolve
+  - IP-CIDR,67.22.48.0/21,no-resolve
+  - IP-CIDR,67.22.56.0/22,no-resolve
+  - IP-CIDR,152.192.0.0/13,no-resolve
+  - IP-CIDR,208.99.64.0/19,no-resolve
+  - IP-CIDR,216.18.160.0/19,no-resolve
